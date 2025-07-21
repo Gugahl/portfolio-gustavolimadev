@@ -12,8 +12,8 @@ if (!isset($_GET['state']) || !isset($_SESSION['spotify_auth_state']) || $_GET['
 // Já validado, pode remover o estado da sessão
 unset($_SESSION['spotify_auth_state']);
 
-$client_id = 'dbddd2f9d7b44029a0dd0f63168227c9';
-$client_secret = 'e36a7f8684ae444fada96e66ae50b7b3';
+$client_id = 'client_id';
+$client_secret = 'client_secret';
 $redirect_uri = 'http://127.0.0.1:8888/callback.php';
 
 if (!isset($_GET['code'])) {
